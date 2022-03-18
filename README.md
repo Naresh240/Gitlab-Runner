@@ -7,10 +7,11 @@
 # Create Project
     Open GitLab account and create new project
 # Install GitLab Runner
-  Go to the project’s Settings > CI/CD and expand the Runners section and get URL and tiken
+  Go to the project’s Settings > CI/CD and expand the Runners section and get URL and token
+  go to ```Settings > CI/CD and expand the Runners section```
     
     sudo gitlab-runner register -n \
-        --url http://54.144.17.106/ \
+        --url http://<URL>/ \
         --registration-token bszC6hSfL8fxaW4yQief \
         --executor shell \
         --description "shell-runner"
