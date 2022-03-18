@@ -13,8 +13,8 @@
     sudo gitlab-runner register -n \
         --url http://<URL>/ \
         --registration-token bszC6hSfL8fxaW4yQief \
-        --executor shell \
-        --description "shell-runner"
+        --executor docker \
+        --description "docker-runner"
    Here We can you different executors, like shell, ssh, docker, kubernetes etc..,
  # Goto WebUI and check Runner
    Go to the project’s Settings > CI/CD and expand the Runners section
