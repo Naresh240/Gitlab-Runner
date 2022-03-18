@@ -21,3 +21,10 @@
    Click on Expand
    
    ![image](https://user-images.githubusercontent.com/58024415/104083102-d0018d00-5261-11eb-8064-51d33e1de759.png)
+
+If you want to push artifacts to S3 bucket follow below steps
+1. Create user with S3 full access
+2. Create S3 bucket
+3. Create below variables in gitlab repo under settings --> CICD --> Variable section
+    AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY_ID
